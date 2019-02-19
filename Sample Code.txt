@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    	<title>Title</title>
+    	<script type="text/javascript">
+
+		//Question 1
+        	var func1 = function () {
+            	console.log("Hello World")
+        	}
+
+
+        	// function parm() {
+        	//     console.log("Hi")
+        	// }
+        
+        	function func2(parm) {
+            	parm()
+        	}
+        	func2(func1);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>	
